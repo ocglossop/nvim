@@ -1,8 +1,10 @@
 return {
   {
-    "saghen/blink.cmp",
-    keymap = {
-      preset = "default",
+    "Saghen/blink.cmp",
+    opts = {
+      keymap = {
+        preset = "default",
+      },
     },
   },
 }
