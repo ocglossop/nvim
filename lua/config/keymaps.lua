@@ -3,5 +3,6 @@
 -- Add any additional keymaps here
 local map = vim.keymap.set
 
--- Escape insert mode with `jj`.
-map("i", "jj", "<Esc>", { noremap = false })
+-- Escape insert mode with `jk` and `kj`.
+map("i", "jk", "<Esc>", { noremap = false })
+map("i", "kj", "<Esc>", { noremap = false })
