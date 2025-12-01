@@ -5,4 +5,4 @@ local map = vim.keymap.set
 
 -- Escape insert mode with `jk` and `kj`.
 map("i", "jk", "<Esc>", { noremap = false })
-map("i", "kj", "<Esc>", { noremap = false })
+-- map("i", "kj", "<Esc>", { noremap = false })
